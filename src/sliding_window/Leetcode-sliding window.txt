@@ -1,0 +1,94 @@
+
+Sliding window--
+
+The main idea behind the sliding window technique is to convert two nested loops into a single loop. Usually, the technique helps us to reduce the time complexity from O(n²) or O(n³) to O(n). This is done by maintaining a sliding window, which is a subarray of the original array that is of a fixed size.
+
+Multidimensional Arrays--
+A multidimensional array is an array of arrays.
+Multidimensional arrays are useful when you want to store data as a tabular form, like a table with rows and columns.
+To create a two-dimensional array, add each array within its own set of curly braces:
+
+Matrices
+
+---------------------------------------------------------------------------------------------
+
+209. Minimum Size Subarray Sum
+Medium
+
+Given an array of positive integers nums and a positive integer target, return the minimal length of a 
+subarray
+ whose sum is greater than or equal to target. If there is no such subarray, return 0 instead.
+
+ 
+
+Example 1:
+
+Input: target = 7, nums = [2,3,1,2,4,3]
+Output: 2
+Explanation: The subarray [4,3] has the minimal length under the problem constraint.
+Example 2:
+
+Input: target = 4, nums = [1,4,4]
+Output: 1
+Example 3:
+
+Input: target = 11, nums = [1,1,1,1,1,1,1,1]
+Output: 0
+ 
+
+Constraints:
+
+1 <= target <= 109
+1 <= nums.length <= 105
+1 <= nums[i] <= 104
+ 
+
+Follow up: If you have figured out the O(n) solution, try coding another solution of which the time complexity is O(n log(n)).
+
+
+minSizeSubarraySum.java
+
+---------------------------------------------------------------------------------------------
+
+3. Longest Substring Without Repeating Characters
+Medium
+
+Given a string s, find the length of the longest 
+substring
+without repeating characters.
+
+Example 1:
+
+Input: s = "abcabcbb"
+Output: 3
+Explanation: The answer is "abc", with the length of 3.
+Example 2:
+
+Input: s = "bbbbb"
+Output: 1
+Explanation: The answer is "b", with the length of 1.
+Example 3:
+
+Input: s = "pwwkew"
+Output: 3
+Explanation: The answer is "wke", with the length of 3.
+Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
+
+Constraints:
+
+0 <= s.length <= 5 * 104
+s consists of English letters, digits, symbols and spaces.
+
+longestSubstring.java
+
+---------------------------------------------------------------------------------------------
+
+Hard --
+
+30. Substring with Concatenation of All Words
+76. Minimum Window Substring
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+
+
