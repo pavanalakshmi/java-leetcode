@@ -12,8 +12,7 @@ public class BuySellStocksMedium {
     }
     public static void main(String[] args) {
         BuySellStocksMedium buySellStocksMedium = new BuySellStocksMedium();
-//        System.out.println(buySellStocksMedium.maxProfit(new int[]{7,1,5,3,6,4}));
+        System.out.println(buySellStocksMedium.maxProfit(new int[]{7,1,5,3,6,4}));
         System.out.println(buySellStocksMedium.maxProfit(new int[]{7,6,4,3,1}));
-
     }
 }
